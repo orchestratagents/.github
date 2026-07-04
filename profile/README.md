@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/company-banner.png" alt="orchestratagents — we build agents and AI-driven systems" width="100%">
+<img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/company-banner-v2.png" alt="orchestratagents — we build agents and AI-driven systems" width="100%">
 
 ### We build agents and AI-driven systems.
 
