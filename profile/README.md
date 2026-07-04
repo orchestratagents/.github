@@ -1,69 +1,55 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/banner.png" alt="Orchestrator — Agent Runtime Platform" width="100%">
+<img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/company-banner.png" alt="orchestratagents — we build agents and AI-driven systems" width="100%">
 
-### Create, govern, and deploy AI agents — without the framework.
+### We build agents and AI-driven systems.
 
-A managed agent **runtime** and **control plane** for businesses: the power of agent frameworks,
-packaged behind a guided dashboard, tenant isolation, sandboxed execution, policy controls,
-usage tracking, and production deployment surfaces.
+Managed agent runtimes, automation platforms, and applied agent research — designed, orchestrated, and shipped under one roof.
 
 </div>
 
 ---
 
-## What is Orchestrator?
+## Who we are
 
-Companies want AI agents in their product, website, and support flows — but building them means
-wrestling with agent frameworks, execution schemas, sandbox orchestration, streaming protocols,
-model routing, and infrastructure.
+We're a team building **AI agents and agent-driven systems** — the platforms that let companies
+create and govern agents, the automation that puts agents to work, and the research that helps us
+understand how agents actually behave. Everything below lives under this org.
 
-**Orchestrator removes that.** A business creates an agent from a guided UI, attaches
-business-facing skills, picks a runtime profile, tests it in a playground, and deploys it — via
-API, a hosted chat page, an embed snippet, or a WordPress plugin. Everything runs on a secure,
-observable, multi-tenant runtime.
+## Our projects
 
-## Capabilities
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/orchestrator.png" alt="Orchestrator"><br>
+      <b>Orchestrator</b> &nbsp;·&nbsp; <sub>Agent runtime &amp; control plane</sub><br>
+      <sub>Create, govern, and deploy AI agents without the framework — a managed runtime with tenant isolation, sandboxed execution, policy controls, and production deployment surfaces. <em>TypeScript · Next.js · Postgres · Docker</em></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/anyagent.png" alt="AnyAgent"><br>
+      <b>AnyAgent</b> &nbsp;·&nbsp; <sub>AI automation platform</sub><br>
+      <sub>Agents that do real work across social, ops, and security. Build agent flows, run them, and observe every step. <em>Fastify · React · Supabase · n8n</em></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <a href="https://github.com/orchestratagents/Chess-Agent-Arena"><img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/chess-agent-arena.png" alt="Chess Agent Arena"></a><br>
+      <b><a href="https://github.com/orchestratagents/Chess-Agent-Arena">Chess Agent Arena</a></b> &nbsp;·&nbsp; <sub>Applied agent research · open source</sub><br>
+      <sub>A local arena where LLMs play chess move by move — a testbed for studying tool-using agent behavior, live. <em>React · TypeScript · chess.js</em></sub>
+    </td>
+  </tr>
+</table>
 
-| | |
-| --- | --- |
-| 🧩 **Guided agent builder** | Define model, instructions, skills, policies, and runtime profile — no framework code. |
-| 🛡️ **Sandboxed runtime** | Each agent runs in an isolated container profile with CPU/memory, filesystem, and network rules. |
-| 🏢 **Multi-tenant by design** | Data, API keys, sessions, usage, and policies are scoped per company. |
-| 🔍 **Observable & governed** | Live sessions, traces, approvals, usage, cost, and tier limits — every action is auditable. |
-| 🚀 **Deploy anywhere** | REST API + SDKs, JS embed widget, hosted chat page, custom subdomain, or WordPress plugin. |
-| ⚙️ **Policy & approvals** | Control which actions need approval, which models and profiles are allowed, and how usage is enforced. |
+## What we work on
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/orchestratagents/.github/main/profile/assets/dashboard.png" alt="Orchestrator admin dashboard — live telemetry, sessions, traces, and agents" width="88%">
-</div>
+- 🧩 **Agent platforms & runtimes** — the control plane for creating, governing, and deploying agents.
+- ⚙️ **Automation** — agent flows and workflows that operate across real business systems.
+- 🔬 **Applied agent research** — arenas and harnesses for understanding how agents behave.
 
-## How it works
+## Connect
 
-```text
-Customer / Operator UI  →  Frontend / Admin Panel  →  Platform API  →  Agent Brain Runtime
-                                                                          ├─ LLM provider
-                                                                          ├─ Capability registry
-                                                                          ├─ Docker sandbox
-                                                                          ├─ Secrets / storage
-                                                                          ├─ Postgres
-                                                                          └─ SSE event stream
-```
+- 💻 **GitHub:** [github.com/orchestratagents](https://github.com/orchestratagents)
 
-The runtime creates sessions, builds instruction and policy context, calls the model, executes
-approved actions, streams events, writes traces, enforces limits, and stores durable state.
-
-## Deploy an agent, your way
-
-- **API + SDKs** — full control from your own product.
-- **Embed widget** — a small JavaScript snippet on any site.
-- **Hosted chat page** — a branded URL (or your own subdomain) with no frontend work.
-- **WordPress plugin** — connect, pick an agent, and place it with a block or shortcode.
-
-## Built with
-
-TypeScript · Next.js · Express · PostgreSQL (Drizzle) · Docker · Turbo · Server-Sent Events
-
-<div align="center">
-<sub><b>Orchestrator</b> · Agent Runtime Platform</sub>
-</div>
+<div align="center"><sub>orchestratagents · agents &amp; AI-driven systems</sub></div>
